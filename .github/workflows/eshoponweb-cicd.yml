@@ -51,7 +51,7 @@ jobs:
     needs: buildandtest
     environment:
       name: 'Development'
-      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
+      url: ${{ https://docs.github.com/en/actions/deployment/targeting-different-environments/using-environments-for-deployment }}
     steps:
       # ✅ Checkout repo again so infra/ folder exists in this job
       - name: Checkout code
